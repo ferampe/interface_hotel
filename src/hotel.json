@@ -1,0 +1,43 @@
+{
+    "price_block":
+    [
+        {
+            "name" : "standar",
+            "status": 1,
+            "room_type":
+                [
+                    {"name":"single", "price":984},
+                    {"name":"double", "price":516},
+                    {"name":"triple", "price":94},
+                    {"name":"quad", "price":529}
+                ]
+            
+        },
+
+        {
+            "name": "superior",
+            "status": 1,
+            "room_type":
+                [
+                    {"name":"single", "price":189},
+                    {"name":"double", "price":35},
+                    {"name":"triple", "price":696},
+                    {"name":"quad", "price":939}
+                ]
+            
+        },
+
+        {
+            "name": "presidential",
+            "status": 1,
+            "room_type":
+                [
+                    {"name":"single", "price":385},
+                    {"name":"double", "price":747},
+                    {"name":"triple", "price":154},
+                    {"name":"quad", "price":824}
+                ]
+
+        }
+    ]
+}
