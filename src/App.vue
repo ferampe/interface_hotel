@@ -15,6 +15,9 @@
         class="uk-margin uk-card uk-card-default uk-card-body" 
         v-for="itemPriceBlock in price_block" v-if="itemPriceBlock.status">
 
+          <input type="text" name="daterange" value="01/01/2015 - 01/31/2015" />
+
+
           <button 
             class="uk-close-large uk-float-right" 
             type="button" 
@@ -139,6 +142,13 @@ export default {
     }
   }
 }
+
+
+
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+
 </script>
 
 
